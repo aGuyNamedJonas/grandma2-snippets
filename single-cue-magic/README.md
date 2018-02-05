@@ -3,7 +3,7 @@
 https://youtu.be/v2ZY73nEIqk
 
 ### How to import into your show
-- Download both files
+- Download both files (right click on them in the list above and select "Save As")
 - Move `single-cue-creator.xml` into `<show_folder>\macros\single-cue-creator.xml`  
 (e.g. into `C:\ProgramData\MA Lighting Technologies\grandma\gma2_V_3.3.4\macros\single-cue-creator.xml`)
 - Move `dimmer-fade-presets.xml` into `<show_folder>\importexport\dimmer-fade-presets.xml`
