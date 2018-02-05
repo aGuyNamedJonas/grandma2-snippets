@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.3.4/MA.xsd" major_vers="3" minor_vers="3" stream_vers="4">
+	<Info datetime="2018-02-05T08:36:15" showfile="youtube-jan2018-single-cue-magic" />
+	<Macro index="0" name="&gt;">
+		<Macroline index="0">
+			<text>Attribute $cuemagic_attribute</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Delay $cuemagic_offset Thru $cuemagic_delay</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Attribute $cuemagic_attribute At $cuemagic_value</text>
+		</Macroline>
+	</Macro>
+	<Macro index="1" name="&lt;">
+		<Macroline index="0">
+			<text>Attribute $cuemagic_attribute</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Delay $cuemagic_delay Thru $cuemagic_offset</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Attribute $cuemagic_attribute At $cuemagic_value</text>
+		</Macroline>
+	</Macro>
+	<Macro index="2" name="&gt;&lt;">
+		<Macroline index="0">
+			<text>Attribute $cuemagic_attribute</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Delay $cuemagic_offset Thru $cuemagic_delay Thru $cuemagic_offset</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Attribute $cuemagic_attribute At $cuemagic_value</text>
+		</Macroline>
+	</Macro>
+	<Macro index="3" name="&lt;&gt;">
+		<Macroline index="0">
+			<text>Attribute $cuemagic_attribute</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Delay $cuemagic_delay Thru $cuemagic_offset Thru $cuemagic_delay</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Attribute $cuemagic_attribute At $cuemagic_value</text>
+		</Macroline>
+	</Macro>
+	<Macro index="4" name="&gt;&gt;&lt;&lt;">
+		<Macroline index="0">
+			<text>Attribute $cuemagic_attribute</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Delay $cuemagic_offset Thru $cuemagic_delay Thru $cuemagic_offset Thru $cuemagic_delay Thru $cuemagic_offset</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Attribute $cuemagic_attribute At $cuemagic_value</text>
+		</Macroline>
+	</Macro>
+	<Macro index="5" name="&lt;&lt;&gt;&gt;">
+		<Macroline index="0">
+			<text>Attribute $cuemagic_attribute</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Delay $cuemagic_delay Thru $cuemagic_offset Thru $cuemagic_delay Thru $cuemagic_offset Thru $cuemagic_delay</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Attribute $cuemagic_attribute At $cuemagic_value</text>
+		</Macroline>
+	</Macro>
+	<Macro index="17" name="SET ATTRIBUTE">
+		<Macroline index="0">
+			<text>List Attribute</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>SetVar $cuemagic_attribute = (&quot;which attribute to set? [dim]&quot;)</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>$cuemagic_attribute</text>
+		</Macroline>
+	</Macro>
+	<Macro index="18" name="SET VALUE">
+		<Macroline index="0">
+			<text>SetVar $cuemagic_value = (&quot;Value?&quot;)</text>
+		</Macroline>
+	</Macro>
+	<Macro index="19" name="SET DELAY">
+		<Macroline index="0">
+			<text>SetVar $cuemagic_delay = (&quot;How much delay?&quot;)</text>
+		</Macroline>
+	</Macro>
+	<Macro index="20" name="SET OFFTIME">
+		<Macroline index="0">
+			<text>SetVar $cuemagic_offTime = (&quot;Offtime?&quot;)</text>
+		</Macroline>
+	</Macro>
+	<Macro index="22" name="STORE">
+		<Macroline index="0">
+			<text>Select Executor @</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Store</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Assign Executor /OffTime=$cuemagic_offTime</text>
+		</Macroline>
+		<Macroline index="3">
+			<text>ClearAll</text>
+		</Macroline>
+	</Macro>
+</MA>
