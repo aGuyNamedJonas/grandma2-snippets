@@ -1,10 +1,10 @@
 # Single Cue Magic
 Set of macros that helps you create more interesting, single-cue looks by utilizing fade- and delay-times to bring a surprising amount of movement into your cues!  
 
-### Watch the video (SINGLE CUE MAGIC)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v2ZY73nEIqk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+### How to use
+[![SINGLE CUE MAGIC](youtubeScreenshot.png)](https://www.youtube.com/watch?v=v2ZY73nEIqk "MA2 SINGLE CUE MAGIC")
 
-### How to import into your show
+### Import
 - Download [dimmer-fade-presets.xml](https://raw.githubusercontent.com/aGuyNamedJonas/grandma2-snippets/master/single-cue-magic/dimmer-fade-presets.xml) ◀ Right-click and save-as
 - Download [single-cue-creator.xml](https://raw.githubusercontent.com/aGuyNamedJonas/grandma2-snippets/master/single-cue-magic/single-cue-creator.xml) ◀ Right-click and save-as
 - Move `single-cue-creator.xml` into `<show_folder>\macros\single-cue-creator.xml`  
