@@ -2,7 +2,7 @@
 Set of macros that helps you create more interesting, single-cue looks by utilizing fade- and delay-times to bring a surprising amount of movement into your cues!  
 
 ### How to use
-<a href="https://www.youtube.com/watch?v=v2ZY73nEIqk" target="_blank"><img src="https://github.com/aGuyNamedJonas/grandma2-snippets/raw/master/single-cue-magic/youtubeScreenshot.PNG" /></a>  
+<a href="https://www.youtube.com/watch?v=v2ZY73nEIqk" target="_blank"><img src="https://raw.githubusercontent.com/aGuyNamedJonas/grandma2-snippets/master/single-cue-magic/youtubeScreenshot.PNG" /></a>  
 *(Right-click and "Open link in new tab")*
 
 **[SUBSCRIBE to my channel ▶ Youtube](https://www.youtube.com/aguynamedjonas)**
