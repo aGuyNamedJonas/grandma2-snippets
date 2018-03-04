@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.3.4/MA.xsd" major_vers="3" minor_vers="3" stream_vers="4">
+	<Info datetime="2018-03-04T11:00:36" showfile="youtube-macro-hacking your showfile v2-oct2017" />
+	<Macro index="0" name="Go Home">
+		<Macroline index="0">
+			<text>ChangeDest /</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>List</text>
+		</Macroline>
+	</Macro>
+	<Macro index="1" name="Go Up">
+		<Macroline index="0">
+			<text>ChangeDest ..</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>List</text>
+		</Macroline>
+	</Macro>
+	<Macro index="3" name="Go into...">
+		<Macroline index="0">
+			<text>ChangeDest (Enter object number to enter)</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>List</text>
+		</Macroline>
+	</Macro>
+	<Macro index="4" name="List">
+		<Macroline index="0">
+			<text>List</text>
+		</Macroline>
+	</Macro>
+	<Macro index="5" name="Change Attribute">
+		<Macroline index="0">
+			<text>List</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Assign (Enter object number to modify) /(Enter-Attribute-name)=(Enter-New-Value )</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>List</text>
+		</Macroline>
+	</Macro>
+</MA>
