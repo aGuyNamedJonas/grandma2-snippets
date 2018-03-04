@@ -1,3 +1,10 @@
 # GrandMA2 Snippets
-In this repository you will find various goodies from my GrandMA2 tutorial videos! Make sure to check out and subscribe to my channel for all the good stuff:  
-**youtube.com/aguynamedjonas**  
+Easily import the macros I'm showing you in my videos on Youtube!  
+Click on one of the folders above to see instructions on how to download and easily import into your show!  
+
+# SUBSCRIBE to my channel on YouTube for more MA2 tutorial videos!
+<a href="https://www.youtube.com/aguynamedjonas" target="_blank"><img src="https://raw.githubusercontent.com/aGuyNamedJonas/grandma2-snippets/master/channel.PNG" /></a>  
+*(Right-click and "Open link in new tab")*
+
+### Get in touch
+Follow me on twitter ▶ **https://twitter.com/aguynamedjonas**
