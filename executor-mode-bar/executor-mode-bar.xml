@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.3.4/MA.xsd" major_vers="3" minor_vers="3" stream_vers="4">
+	<Info datetime="2018-03-20T07:17:55" showfile="tw18 prep" />
+	<Macro index="30" name="GO">
+		<Macroline index="0">
+			<text>Label Macro &quot;GO&quot; &quot;&gt;GO&lt;&quot;</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Assign Go @</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Label Macro &quot;&gt;GO&lt;&quot; &quot;GO&quot;</text>
+		</Macroline>
+	</Macro>
+	<Macro index="31" name="GO_R">
+		<Macroline index="0">
+			<text>Label Macro &quot;GO_R&quot; &quot;&gt;GO_R&lt;&quot;</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Assign Go /cue_mode=release @</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Label Macro &quot;&gt;GO_R&lt;&quot; &quot;GO_R&quot;</text>
+		</Macroline>
+	</Macro>
+	<Macro index="32" name="TOGGLE">
+		<Macroline index="0">
+			<text>Label Macro &quot;TOGGLE&quot; &quot;&gt;TOGGLE&lt;&quot;</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Assign Toggle @</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Label Macro &quot;&gt;TOGGLE&lt;&quot; &quot;TOGGLE&quot;</text>
+		</Macroline>
+	</Macro>
+	<Macro index="33" name="FLASH">
+		<Macroline index="0">
+			<text>Label Macro &quot;FLASH&quot; &quot;&gt;FLASH&lt;&quot;</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Assign Flash @</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Label Macro &quot;&gt;FLASH&lt;&quot; &quot;FLASH&quot;</text>
+		</Macroline>
+	</Macro>
+	<Macro index="39" name="MASTER">
+		<Macroline index="0">
+			<text>Label Macro &quot;MASTER&quot; &quot;&gt;MASTER&lt;&quot;</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Assign Master @</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Label Macro &quot;&gt;MASTER&lt;&quot; &quot;MASTER&quot;</text>
+		</Macroline>
+	</Macro>
+	<Macro index="40" name="TEMP">
+		<Macroline index="0">
+			<text>Label Macro &quot;TEMP&quot; &quot;&gt;TEMP&lt;&quot;</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Assign TempFader @</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Label Macro &quot;&gt;TEMP&lt;&quot; &quot;TEMP&quot;</text>
+		</Macroline>
+	</Macro>
+	<Macro index="41" name="RATE">
+		<Macroline index="0">
+			<text>Label Macro &quot;RATE&quot; &quot;&gt;RATE&lt;&quot;</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Assign Rate @</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Label Macro &quot;&gt;RATE&lt;&quot; &quot;RATE&quot;</text>
+		</Macroline>
+	</Macro>
+	<Macro index="42" name="SPEED">
+		<Macroline index="0">
+			<text>Label Macro &quot;SPEED&quot; &quot;&gt;SPEED&lt;&quot;</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Assign Speed @</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Label Macro &quot;&gt;SPEED&lt;&quot; &quot;SPEED&quot;</text>
+		</Macroline>
+	</Macro>
+	<Macro index="43" name="X-FADE">
+		<Macroline index="0">
+			<text>Label Macro &quot;X-FADE&quot; &quot;&gt;X-FADE&lt;&quot;</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Assign Crossfade @</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Label Macro &quot;&gt;X-FADE&lt;&quot; &quot;X-FADE&quot;</text>
+		</Macroline>
+	</Macro>
+	<Macro index="44" name="X-FADE-B">
+		<Macroline index="0">
+			<text>Label Macro &quot;X-FADE-B&quot; &quot;&gt;X-FADE-B&lt;&quot;</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Assign CrossfadeB @</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Label Macro &quot;&gt;X-FADE-B&lt;&quot; &quot;X-FADE-B&quot;</text>
+		</Macroline>
+	</Macro>
+</MA>
