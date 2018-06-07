@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.3.4/MA.xsd" major_vers="3" minor_vers="3" stream_vers="4">
+	<!-- Macros -->
+	<Macro index="9" name="REFRESH LEDs">
+		<Macroline index="0">
+			<text>SetVar $apc40-op = &quot;refresh-leds&quot;</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Go Plugin &quot;apc40-mapper&quot;</text>
+		</Macroline>
+	</Macro>
+	<Macro index="10" name="SETUP">
+		<Macroline index="0">
+			<text>SetVar $apc40-op = &quot;setup&quot;</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Go Plugin &quot;apc40-mapper&quot;</text>
+		</Macroline>
+	</Macro>
+	<Macro index="11" name="SLOT 1">
+		<Appearance Color="323232" />
+	</Macro>
+	<Macro index="12" name="SLOT 2">
+		<Appearance Color="323232" />
+	</Macro>
+	<Macro index="13" name="SLOT 3">
+		<Appearance Color="323232" />
+	</Macro>
+	<Macro index="14" name="SLOT 4">
+		<Appearance Color="323232" />
+	</Macro>
+	<Macro index="15" name="SLOT 5">
+		<Appearance Color="323232" />
+	</Macro>
+	<Macro index="16" name="SLOT 6">
+		<Appearance Color="323232" />
+	</Macro>
+	<Macro index="17" name="SLOT 7">
+		<Appearance Color="323232" />
+	</Macro>
+	<Macro index="18" name="SLOT 8">
+		<Appearance Color="323232" />
+	</Macro>
+
+	<!-- Plugin -->
+	<Plugin execute_on_load="0" name="apc40-mapper" luafile="APC40-Plugin.lua" />
+</MA>

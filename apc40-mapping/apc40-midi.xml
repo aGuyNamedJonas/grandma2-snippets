@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.3.4/MA.xsd" major_vers="3" minor_vers="3" stream_vers="4">
+	<Info datetime="2018-05-21T17:43:23" showfile="apc40 mapping" />
+	<MidiRemotes index="1">
+		<!-- Master Fader 1-8 -->
+		<RemoteMidi note="0" channel="16" type="exec" page="7" button_type="fader" />
+		<RemoteMidi note="1" channel="16" type="exec" exec="1" page="7" button_type="fader" />
+		<RemoteMidi note="2" channel="16" type="exec" exec="2" page="7" button_type="fader" />
+		<RemoteMidi note="3" channel="16" type="exec" exec="3" page="7" button_type="fader" />
+		<RemoteMidi note="4" channel="16" type="exec" exec="4" page="7" button_type="fader" />
+		<RemoteMidi note="5" channel="16" type="exec" exec="5" page="7" button_type="fader" />
+		<RemoteMidi note="6" channel="16" type="exec" exec="6" page="7" button_type="fader" />
+		<RemoteMidi note="7" channel="16" type="exec" exec="7" page="7" button_type="fader" />
+
+		<!-- Master Fader 1 Buttons -->
+		<!-- Careful! Executor offsets here start at 0! -->
+		<RemoteMidi note="50" channel="1" type="exec" exec="0" page="7" button_type="top"/>
+		<RemoteMidi note="49" channel="1" type="exec" exec="0" page="7" button_type="above_fader" />
+		<RemoteMidi note="48" channel="1" type="exec" exec="0" page="7" />
+
+		<!-- Master Fader 2 Buttons -->
+		<RemoteMidi note="50" channel="2" type="exec" exec="1" page="7" button_type="top"/>
+		<RemoteMidi note="49" channel="2" type="exec" exec="1" page="7" button_type="above_fader" />
+		<RemoteMidi note="48" channel="2" type="exec" exec="1" page="7" />
+
+		<!-- Master Fader 3 Buttons -->
+		<RemoteMidi note="50" channel="3" type="exec" exec="2" page="7" button_type="top"/>
+		<RemoteMidi note="49" channel="3" type="exec" exec="2" page="7" button_type="above_fader" />
+		<RemoteMidi note="48" channel="3" type="exec" exec="2" page="7" />
+
+		<!-- Master Fader 4 Buttons -->
+		<RemoteMidi note="50" channel="4" type="exec" exec="3" page="7" button_type="top"/>
+		<RemoteMidi note="49" channel="4" type="exec" exec="3" page="7" button_type="above_fader" />
+		<RemoteMidi note="48" channel="4" type="exec" exec="3" page="7" />
+
+		<!-- Master Fader 5 Buttons -->
+		<RemoteMidi note="50" channel="5" type="exec" exec="4" page="7" button_type="top"/>
+		<RemoteMidi note="49" channel="5" type="exec" exec="4" page="7" button_type="above_fader" />
+		<RemoteMidi note="48" channel="5" type="exec" exec="4" page="7" />
+
+		<!-- Master Fader 6 Buttons -->
+		<RemoteMidi note="50" channel="6" type="exec" exec="5" page="7" button_type="top"/>
+		<RemoteMidi note="49" channel="6" type="exec" exec="5" page="7" button_type="above_fader" />
+		<RemoteMidi note="48" channel="6" type="exec" exec="5" page="7" />
+
+		<!-- Master Fader 7 Buttons -->
+		<RemoteMidi note="50" channel="7" type="exec" exec="6" page="7" button_type="top"/>
+		<RemoteMidi note="49" channel="7" type="exec" exec="6" page="7" button_type="above_fader" />
+		<RemoteMidi note="48" channel="7" type="exec" exec="6" page="7" />
+
+		<!-- Master Fader 8 Buttons -->
+		<RemoteMidi note="50" channel="8" type="exec" exec="7" page="7" button_type="top"/>
+		<RemoteMidi note="49" channel="8" type="exec" exec="7" page="7" button_type="above_fader" />
+		<RemoteMidi note="48" channel="8" type="exec" exec="7" page="7" />
+
+		<!-- Master Fader -->
+		<RemoteMidi note="8" channel="16" type="exec" exec="8" page="7" button_type="fader" />
+
+		<!-- Cue Level Fader -->
+		<RemoteMidi note="9" channel="16" type="exec" exec="9" page="7" button_type="fader" />
+		
+		<!-- Track Control Encoders -->
+		<RemoteMidi note="10" channel="16" type="exec" exec="65" page="7" button_type="fader" />
+		<RemoteMidi note="11" channel="16" type="exec" exec="66" page="7" button_type="fader" />
+		<RemoteMidi note="12" channel="16" type="exec" exec="67" page="7" button_type="fader" />
+		<RemoteMidi note="13" channel="16" type="exec" exec="68" page="7" button_type="fader" />
+		<RemoteMidi note="14" channel="16" type="exec" exec="70" page="7" button_type="fader" />
+		<RemoteMidi note="15" channel="16" type="exec" exec="71" page="7" button_type="fader" />
+		<RemoteMidi note="16" channel="16" type="exec" exec="72" page="7" button_type="fader" />
+		<RemoteMidi note="17" channel="16" type="exec" exec="73" page="7" button_type="fader" />
+
+		<!-- Track Control Buttons -->
+		<RemoteMidi note="87" channel="1" type="exec" exec="70" page="7" />
+		<RemoteMidi note="88" channel="1" type="exec" exec="71" page="7" />
+		<RemoteMidi note="89" channel="1" type="exec" exec="72" page="7" />
+		<RemoteMidi note="90" channel="1" type="exec" exec="73" page="7" />
+
+		<!-- Device Control Encoders -->
+		<RemoteMidi note="20" channel="16" type="exec" exec="80" page="7" button_type="fader" />
+		<RemoteMidi note="21" channel="16" type="exec" exec="81" page="7" button_type="fader" />
+		<RemoteMidi note="22" channel="16" type="exec" exec="82" page="7" button_type="fader" />
+		<RemoteMidi note="23" channel="16" type="exec" exec="83" page="7" button_type="fader" />
+		<RemoteMidi note="24" channel="16" type="exec" exec="85" page="7" button_type="fader" />
+		<RemoteMidi note="25" channel="16" type="exec" exec="86" page="7" button_type="fader" />
+		<RemoteMidi note="26" channel="16" type="exec" exec="87" page="7" button_type="fader" />
+		<RemoteMidi note="27" channel="16" type="exec" exec="88" page="7" button_type="fader" />
+		
+		<!-- Device Control Buttons -->
+		<RemoteMidi note="58" channel="1" type="exec" exec="80" page="7" />
+		<RemoteMidi note="59" channel="1" type="exec" exec="81" page="7" />
+		<RemoteMidi note="60" channel="1" type="exec" exec="82" page="7" />
+		<RemoteMidi note="61" channel="1" type="exec" exec="83" page="7" />
+		<RemoteMidi note="62" channel="1" type="exec" exec="85" page="7" />
+		<RemoteMidi note="63" channel="1" type="exec" exec="86" page="7" />
+		<RemoteMidi note="64" channel="1" type="exec" exec="87" page="7" />
+		<RemoteMidi note="65" channel="1" type="exec" exec="88" page="7" />
+		
+		<!-- Slot 1 Clip Buttons -->
+		<RemoteMidi note="53" channel="1" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 1; SetVar $apc40-clip = 1; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="54" channel="1" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 1; SetVar $apc40-clip = 2; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="55" channel="1" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 1; SetVar $apc40-clip = 3; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="56" channel="1" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 1; SetVar $apc40-clip = 4; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="57" channel="1" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 1; SetVar $apc40-clip = 5; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+
+		<!-- Slot 2 Clip Buttons -->
+		<RemoteMidi note="53" channel="2" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 2; SetVar $apc40-clip = 1; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="54" channel="2" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 2; SetVar $apc40-clip = 2; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="55" channel="2" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 2; SetVar $apc40-clip = 3; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="56" channel="2" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 2; SetVar $apc40-clip = 4; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="57" channel="2" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 2; SetVar $apc40-clip = 5; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+
+		<!-- Slot 3 Clip Buttons -->
+		<RemoteMidi note="53" channel="3" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 3; SetVar $apc40-clip = 1; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="54" channel="3" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 3; SetVar $apc40-clip = 2; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="55" channel="3" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 3; SetVar $apc40-clip = 3; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="56" channel="3" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 3; SetVar $apc40-clip = 4; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="57" channel="3" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 3; SetVar $apc40-clip = 5; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+
+		<!-- Slot 4 Clip Buttons -->
+		<RemoteMidi note="53" channel="4" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 4; SetVar $apc40-clip = 1; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="54" channel="4" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 4; SetVar $apc40-clip = 2; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="55" channel="4" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 4; SetVar $apc40-clip = 3; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="56" channel="4" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 4; SetVar $apc40-clip = 4; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="57" channel="4" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 4; SetVar $apc40-clip = 5; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+
+		<!-- Slot 5 Clip Buttons -->
+		<RemoteMidi note="53" channel="5" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 5; SetVar $apc40-clip = 1; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="54" channel="5" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 5; SetVar $apc40-clip = 2; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="55" channel="5" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 5; SetVar $apc40-clip = 3; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="56" channel="5" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 5; SetVar $apc40-clip = 4; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="57" channel="5" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 5; SetVar $apc40-clip = 5; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+
+		<!-- Slot 6 Clip Buttons -->
+		<RemoteMidi note="53" channel="6" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 6; SetVar $apc40-clip = 1; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="54" channel="6" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 6; SetVar $apc40-clip = 2; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="55" channel="6" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 6; SetVar $apc40-clip = 3; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="56" channel="6" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 6; SetVar $apc40-clip = 4; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="57" channel="6" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 6; SetVar $apc40-clip = 5; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+
+		<!-- Slot 7 Clip Buttons -->
+		<RemoteMidi note="53" channel="7" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 7; SetVar $apc40-clip = 1; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="54" channel="7" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 7; SetVar $apc40-clip = 2; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="55" channel="7" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 7; SetVar $apc40-clip = 3; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="56" channel="7" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 7; SetVar $apc40-clip = 4; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="57" channel="7" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 7; SetVar $apc40-clip = 5; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+
+		<!-- Slot 8 Clip Buttons -->
+		<RemoteMidi note="53" channel="8" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 8; SetVar $apc40-clip = 1; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="54" channel="8" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 8; SetVar $apc40-clip = 2; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="55" channel="8" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 8; SetVar $apc40-clip = 3; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="56" channel="8" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 8; SetVar $apc40-clip = 4; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="57" channel="8" type="macro_line">
+			<macro_line>SetVar $apc40-op = "load-slot"; SetVar $apc40-slot = 8; SetVar $apc40-clip = 5; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+
+		<!-- Group Buttons -->
+		<RemoteMidi note="82" channel="1" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-group"; SetVar $apc40-group = "1"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="83" channel="1" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-group"; SetVar $apc40-group = "2"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="84" channel="1" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-group"; SetVar $apc40-group = "3"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="85" channel="1" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-group"; SetVar $apc40-group = "4"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="86" channel="1" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-group"; SetVar $apc40-group = "5"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="81" channel="1" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-group"; SetVar $apc40-group = "6"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="80" channel="1" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-group"; SetVar $apc40-group = "7"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+
+		<!-- Presets Buttons -->
+		<RemoteMidi note="52" channel="1" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-preset"; SetVar $apc40-preset = "0.1"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="52" channel="2" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-preset"; SetVar $apc40-preset = "0.2"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="52" channel="3" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-preset"; SetVar $apc40-preset = "0.3"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="52" channel="4" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-preset"; SetVar $apc40-preset = "0.4"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="52" channel="5" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-preset"; SetVar $apc40-preset = "0.5"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="52" channel="6" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-preset"; SetVar $apc40-preset = "0.6"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="52" channel="7" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-preset"; SetVar $apc40-preset = "0.7"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="52" channel="8" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-preset"; SetVar $apc40-preset = "0.8"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+
+		<RemoteMidi note="51" channel="1" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-preset"; SetVar $apc40-preset = "0.10"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="51" channel="2" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-preset"; SetVar $apc40-preset = "0.11"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="51" channel="3" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-preset"; SetVar $apc40-preset = "0.12"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="51" channel="4" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-preset"; SetVar $apc40-preset = "0.13"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="51" channel="5" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-preset"; SetVar $apc40-preset = "0.14"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="51" channel="6" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-preset"; SetVar $apc40-preset = "0.15"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="51" channel="7" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-preset"; SetVar $apc40-preset = "0.16"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+		<RemoteMidi note="51" channel="8" type="macro_line">
+			<macro_line>SetVar $apc40-op = "toggle-preset"; SetVar $apc40-preset = "0.17"; Go Plugin "apc40-mapper"</macro_line>
+		</RemoteMidi>
+	</MidiRemotes>
+</MA>

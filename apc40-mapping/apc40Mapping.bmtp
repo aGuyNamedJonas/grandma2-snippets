@@ -1,0 +1,141 @@
+[MIDI.routes]
+In0=Bome Virtual Port 2
+Out0=Akai APC40
+
+[Preset.0]
+Name=Init APC40
+Active=1
+PresetSwitchIgnore=0
+Name0=INIT
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x62"/><Value2 num="0x7F"/></Simple></Incoming>
+Outgoing0=MID2MIDA0001000AAkai APC40f07e000601f7f047007360000441010101f7903503903600903702903802903900913503913602913700913800913902923503923602923700923800923902933503933600933702933802933900943503943600943700943800943900953503953602953702953802953902963503963600963702963802963900973503973602973700973800973902
+Options0=Actv01Stop00OutO00
+
+[Preset.1]
+Name=Midi Through In
+Active=1
+PresetSwitchIgnore=0
+Name0=Midi Through Notes
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel var="pp" Type="SetVar"/><Value1 var="qq" Type="SetVar"/><Value2 var="rr" Type="SetVar"/></Simple></Incoming>
+Outgoing0=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel var="pp"/><Value1 var="qq"/><Value2 var="rr"/></Simple></Outgoing>
+Options0=Actv01Stop00OutO01
+
+[Preset.2]
+Name=Fader Translation
+Active=1
+PresetSwitchIgnore=0
+Name0=Fader 1
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x07"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing0=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x00"/><Value2 var="oo"/></Simple></Outgoing>
+Options0=Actv01Stop00OutO00
+Name1=Fader 2
+Incoming1=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="1"/><Value1 num="0x07"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing1=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x01"/><Value2 var="oo"/></Simple></Outgoing>
+Options1=Actv01Stop00OutO00
+Name2=Fader 3
+Incoming2=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="2"/><Value1 num="0x07"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing2=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x02"/><Value2 var="oo"/></Simple></Outgoing>
+Options2=Actv01Stop00OutO00
+Name3=Fader 4
+Incoming3=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="3"/><Value1 num="0x07"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing3=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x03"/><Value2 var="oo"/></Simple></Outgoing>
+Options3=Actv01Stop00OutO00
+Name4=Fader 5
+Incoming4=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="4"/><Value1 num="0x07"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing4=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x04"/><Value2 var="oo"/></Simple></Outgoing>
+Options4=Actv01Stop00OutO00
+Name5=Fader 6
+Incoming5=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="5"/><Value1 num="0x07"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing5=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x05"/><Value2 var="oo"/></Simple></Outgoing>
+Options5=Actv01Stop00OutO00
+Name6=Fader 7
+Incoming6=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="6"/><Value1 num="0x07"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing6=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x06"/><Value2 var="oo"/></Simple></Outgoing>
+Options6=Actv01Stop00OutO00
+Name7=Fader 8
+Incoming7=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="7"/><Value1 num="0x07"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing7=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x07"/><Value2 var="oo"/></Simple></Outgoing>
+Options7=Actv01Stop00OutO00
+Name8=Fader 9
+Incoming8=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x0E"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing8=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x08"/><Value2 var="oo"/></Simple></Outgoing>
+Options8=Actv01Stop00OutO00
+Name9=Fader 10 (Knob)
+Incoming9=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x2F"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing9=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x09"/><Value2 var="oo"/></Simple></Outgoing>
+Options9=Actv01Stop00OutO00
+Name10=Knob 1
+Incoming10=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x30"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing10=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x0A"/><Value2 var="oo"/></Simple></Outgoing>
+Options10=Actv01Stop00OutO00
+Name11=Knob 2
+Incoming11=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x31"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing11=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x0B"/><Value2 var="oo"/></Simple></Outgoing>
+Options11=Actv01Stop00OutO00
+Name12=Knob 3
+Incoming12=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x32"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing12=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x0C"/><Value2 var="oo"/></Simple></Outgoing>
+Options12=Actv01Stop00OutO00
+Name13=Knob 4
+Incoming13=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x33"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing13=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x0D"/><Value2 var="oo"/></Simple></Outgoing>
+Options13=Actv01Stop00OutO00
+Name14=Knob 5
+Incoming14=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x34"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing14=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x0E"/><Value2 var="oo"/></Simple></Outgoing>
+Options14=Actv01Stop00OutO00
+Name15=Knob 6
+Incoming15=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x35"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing15=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x0F"/><Value2 var="oo"/></Simple></Outgoing>
+Options15=Actv01Stop00OutO00
+Name16=Knob 7
+Incoming16=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x36"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing16=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x10"/><Value2 var="oo"/></Simple></Outgoing>
+Options16=Actv01Stop00OutO00
+Name17=Knob 8
+Incoming17=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x37"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing17=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x11"/><Value2 var="oo"/></Simple></Outgoing>
+Options17=Actv01Stop00OutO00
+Name18=Knob 9
+Incoming18=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x10"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing18=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x14"/><Value2 var="oo"/></Simple></Outgoing>
+Options18=Actv01Stop00OutO00
+Name19=Knob 10
+Incoming19=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x11"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing19=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x15"/><Value2 var="oo"/></Simple></Outgoing>
+Options19=Actv01Stop00OutO00
+Name20=Knob 11
+Incoming20=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x12"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing20=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x16"/><Value2 var="oo"/></Simple></Outgoing>
+Options20=Actv01Stop00OutO00
+Name21=Knob 12
+Incoming21=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x13"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing21=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x17"/><Value2 var="oo"/></Simple></Outgoing>
+Options21=Actv01Stop00OutO00
+Name22=Knob 13
+Incoming22=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x14"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing22=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x18"/><Value2 var="oo"/></Simple></Outgoing>
+Options22=Actv01Stop00OutO00
+Name23=Knob 14
+Incoming23=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x15"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing23=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x19"/><Value2 var="oo"/></Simple></Outgoing>
+Options23=Actv01Stop00OutO00
+Name24=Knob 15
+Incoming24=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x16"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing24=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x1A"/><Value2 var="oo"/></Simple></Outgoing>
+Options24=Actv01Stop00OutO00
+Name25=Knob 16
+Incoming25=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x17"/><Value2 var="oo" Type="SetVar"/></Simple></Incoming>
+Outgoing25=MID3<Outgoing Action="MIDI"><Simple Type="NoteOn"><Channel num="15"/><Value1 num="0x1B"/><Value2 var="oo"/></Simple></Outgoing>
+Options25=Actv01Stop00OutO00
+
+[Project]
+Version=2
+Author=
+AuthorContact=
+Comments=
+AuthorWWW=
+AuthorCopyright=
+DefaultInPorts=MIDA0001000AAkai APC40
+DefaultOutPorts=MIDA00010022Bome MIDI Translator 1 Virtual Out
+
