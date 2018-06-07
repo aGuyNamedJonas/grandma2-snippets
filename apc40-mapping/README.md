@@ -83,4 +83,4 @@ The following slots will be used by the APC40 mapping - please make them availab
 6. Download the Bome's Midi Translator Pro [Project file](https://raw.githubusercontent.com/aGuyNamedJonas/grandma2-snippets/master/apc40-mapping/apc40Mapping.bmtp) ◀ Right-click and save-as 
 
 ## How to Use
-Yeah there's no way in hell I'm typing that one out - just watch the video :)
+Yeah there's no way in hell I'm typing that one out - just watch the video: https://youtu.be/k9Ce1NXg9xg :)
